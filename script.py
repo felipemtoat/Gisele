@@ -91,10 +91,10 @@ def split_pdf_by_historico(pdf_path, output_dir):
 
 if __name__ == "__main__":
     # Input PDF file
-    input_pdf = "/Users/felipemotta/Gisele/hist.pdf"
+    input_pdf = "/path/to/pdf/example.pdf"
     
     # Output directory for separated PDFs
-    output_directory = "/Users/felipemotta/Gisele"
+    output_directory = "/path/to/Gisele"
     os.makedirs(output_directory, exist_ok=True)
     
     # Split the PDF
